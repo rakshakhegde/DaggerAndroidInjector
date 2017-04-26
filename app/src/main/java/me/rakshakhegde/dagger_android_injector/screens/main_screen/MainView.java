@@ -5,4 +5,5 @@ package me.rakshakhegde.dagger_android_injector.screens.main_screen;
  */
 
 public interface MainView {
+	void showMessage(int message);
 }

@@ -8,6 +8,8 @@ import javax.inject.Inject;
 import dagger.android.AndroidInjector;
 import dagger.android.DispatchingAndroidInjector;
 import dagger.android.HasActivityInjector;
+import me.rakshakhegde.dagger_android_injector.dependencies.DaggerAppComponent;
+
 
 /**
  * Created by rakshakhegde on 26/04/17.
