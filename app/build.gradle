@@ -28,9 +28,6 @@ ext {
 
 dependencies {
 	compile fileTree(dir: 'libs', include: ['*.jar'])
-	androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-		exclude group: 'com.android.support', module: 'support-annotations'
-	})
 	compile 'com.android.support:appcompat-v7:25.3.1'
 	compile 'com.android.support.constraint:constraint-layout:1.0.2'
 
@@ -44,6 +41,11 @@ dependencies {
 
 
 	testCompile 'junit:junit:4.12'
+	testCompile "org.mockito:mockito-core:2.7.22"
+
 
 	androidTestCompile "com.google.code.findbugs:jsr305:$jsr305Version"
+	androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+		exclude group: 'com.android.support', module: 'support-annotations'
+	})
 }
