@@ -13,7 +13,7 @@ import static org.mockito.Mockito.verify;
 public class MainViewModelTest {
 
 	@Test
-	public void showBtnClicked() throws Exception {
+	public void showBtnClicked() {
 		// Setup
 		MainView mockView = mock(MainView.class);
 
