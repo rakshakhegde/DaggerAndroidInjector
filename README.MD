@@ -3,7 +3,7 @@
 Sample project to demonstrate how to use the new [**dagger-module**](https://google.github.io/dagger/android.html) in latest Dagger v2.11-rc1. Also shows MVVM and Unit Test setup with Mockito on the side.
 
 ### Show some :heart:
-[![GitHub stars](https://img.shields.io/github/stars/rakshakhegde/DaggerAndroidInjector.svg?style=social&label=Star)](https://github.com/rakshakhegde/DaggerAndroidInjector) [![GitHub forks](https://img.shields.io/github/forks/rakshakhegde/DaggerAndroidInjector.svg?style=social&label=Fork)](https://github.com/rakshakhegde/DaggerAndroidInjector/fork) [![GitHub watchers](https://img.shields.io/github/watchers/rakshakhegde/DaggerAndroidInjector.svg?style=social&label=Watch)](https://github.com/rakshakhegde/DaggerAndroidInjector) [![GitHub followers](https://img.shields.io/github/followers/rakshakhegde.svg?style=social&label=Follow)](https://github.com/rakshakhegde/DaggerAndroidInjector)  
+[![GitHub stars](https://img.shields.io/github/stars/rakshakhegde/DaggerAndroidInjector.svg?style=social&label=Star)](https://github.com/rakshakhegde/DaggerAndroidInjector) [![GitHub forks](https://img.shields.io/github/forks/rakshakhegde/DaggerAndroidInjector.svg?style=social&label=Fork)](https://github.com/rakshakhegde/DaggerAndroidInjector/fork) [![GitHub watchers](https://img.shields.io/github/watchers/rakshakhegde/DaggerAndroidInjector.svg?style=social&label=Watch)](https://github.com/rakshakhegde/DaggerAndroidInjector) [![GitHub followers](https://img.shields.io/github/followers/rakshakhegde.svg?style=social&label=Follow)](https://github.com/rakshakhegde)  
 [![Twitter Follow](https://img.shields.io/twitter/follow/rakshakhegde.svg?style=social)](https://twitter.com/rakshakhegde)
 
 ## Motivation
