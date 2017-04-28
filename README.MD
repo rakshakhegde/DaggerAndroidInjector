@@ -11,7 +11,7 @@ Sample project to demonstrate how to use the new [**dagger-module**](https://goo
 ## Motivation
 Right now you maybe getting the Application instance from Activity and injecting ("hydrating") instances based off of that. But the latest version of dagger basically decouples your Activity from knowing who your `Injector` is.
 
-So this sample project was built because I myself spent a bit of time getting **dagger-android** module setup. There are things like getting all the correct library versions to work together. So here is a working starting point on how to use Dagger's `@ContributesAndroidInjector` which you can build upon.
+So this sample project was built because I myself spent a bit of time getting **dagger-android** module setup at my company [Instavans](http://www.instavans.com/). There are things like getting all the correct library versions to work together. So here is a working starting point on how to use Dagger's `@ContributesAndroidInjector` which you can build upon.
 
 <p align="center">
 
