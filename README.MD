@@ -14,7 +14,7 @@ So this sample project was built because I myself spent a bit of time getting **
 <p align="center">
 
 <a href="https://github.com/rakshakhegde/DaggerAndroidInjector/blob/master/app/src/main/java/me/rakshakhegde/dagger_android_injector/screens/main_screen/MainActivity.java#L30">
-<img alt="MainActivity Demo" src="/ART/main_activity.png" width="800"></img>
+<img alt="MainActivity Demo" src="/ART/main_activity.png" width=600"></img>
 </a>
 
 <a href="https://github.com/rakshakhegde/DaggerAndroidInjector/blob/master/app/src/main/java/me/rakshakhegde/dagger_android_injector/dependencies/InjectorsModule.java#L14">
