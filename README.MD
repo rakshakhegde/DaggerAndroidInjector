@@ -12,4 +12,4 @@ So this sample project was built because I myself spent a bit of time getting **
 <img alt="Injectors Module Demo" src="/ART/injectors_module.png" width="600"></img>
 </p>
 
-<h3>[Follow me on Twitter @rakshakhegde](https://twitter.com/rakshakhegde)</h3>
+### [Follow me on Twitter @rakshakhegde](https://twitter.com/rakshakhegde)
