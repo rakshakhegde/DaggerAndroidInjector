@@ -1,3 +1,5 @@
+[![BuddyBuild Continuous Integration](https://dashboard.buddybuild.com/api/statusImage?appID=5902e07342b8090001523d74&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/5902e07342b8090001523d74/build/latest?branch=master)
+
 # Dagger Android Injector
 
 Sample project to demonstrate how to use the new [**dagger-module**](https://google.github.io/dagger/android.html) in latest Dagger v2.11-rc1. Also shows MVVM and Unit Test setup with Mockito on the side.
