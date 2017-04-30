@@ -1,6 +1,6 @@
 [![BuddyBuild Continuous Integration](https://dashboard.buddybuild.com/api/statusImage?appID=5902e07342b8090001523d74&branch=kotlin&build=latest)](https://dashboard.buddybuild.com/apps/5902e07342b8090001523d74/build/latest?branch=kotlin)
 
-# Dagger Android Injector
+# Dagger Android Injector - Kotlin
 
 Sample project to demonstrate how to use the new [**dagger-android**](https://google.github.io/dagger/android.html) module in latest Dagger [v2.11-rc1](https://github.com/google/dagger/releases/tag/dagger-2.11-rc1). Along with [Proguard rules](https://github.com/rakshakhegde/DaggerAndroidInjector/blob/master/app/proguard-rules.pro#L27). Also shows [MVVM pattern](https://labs.ribot.co.uk/approaching-android-with-mvvm-8ceec02d5442) and [Unit Test](https://github.com/rakshakhegde/DaggerAndroidInjector/blob/master/app/src/test/java/me/rakshakhegde/dagger_android_injector/screens/main_screen/MainViewModelTest.java) setup with [Mockito](https://github.com/rakshakhegde/DaggerAndroidInjector/blob/master/app/build.gradle#L44) on the side.
 
