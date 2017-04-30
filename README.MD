@@ -1,4 +1,4 @@
-[![BuddyBuild Continuous Integration](https://dashboard.buddybuild.com/api/statusImage?appID=5902e07342b8090001523d74&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/5902e07342b8090001523d74/build/latest?branch=master)
+[![BuddyBuild Continuous Integration](https://dashboard.buddybuild.com/api/statusImage?appID=5902e07342b8090001523d74&branch=kotlin&build=latest)](https://dashboard.buddybuild.com/apps/5902e07342b8090001523d74/build/latest?branch=kotlin)
 
 # Dagger Android Injector
 
