@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
 
 android {
 	compileSdkVersion 25
@@ -24,6 +26,7 @@ android {
 ext {
 	daggerVersion = "2.11-rc1"
 	jsr305Version = "3.0.1"
+	ankoLibVersion = "0.9"
 }
 
 dependencies {
@@ -34,10 +37,15 @@ dependencies {
 //	Uncomment if you're not using support library and remove 'dagger-android-support' below
 //	compile "com.google.dagger:dagger-android:$daggerVersion"
 	compile "com.google.dagger:dagger-android-support:$daggerVersion"
-	annotationProcessor "com.google.dagger:dagger-compiler:$daggerVersion"
-	annotationProcessor "com.google.dagger:dagger-android-processor:$daggerVersion"
+	kapt "com.google.dagger:dagger-compiler:$daggerVersion"
+	kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
 
 	compile "com.google.code.findbugs:jsr305:$jsr305Version"
+
+	compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+	compile "org.jetbrains.anko:anko-sdk15:$ankoLibVersion"
+
+	kapt "com.android.databinding:compiler:$compiler_version"
 
 
 	testCompile 'junit:junit:4.12'
@@ -48,4 +56,7 @@ dependencies {
 	androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
 		exclude group: 'com.android.support', module: 'support-annotations'
 	})
+}
+repositories {
+	mavenCentral()
 }
