@@ -25,3 +25,8 @@
 #-renamesourcefileattribute SourceFile
 
 -dontwarn com.google.errorprone.annotations.*
+
+
+# KOTLIN
+-dontwarn kotlin.**
+-dontwarn org.jetbrains.anko.internals.AnkoInternals
