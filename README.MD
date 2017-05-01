@@ -2,6 +2,8 @@
 
 # Dagger Android Injector - Kotlin
 
+[**Reddit discussion**](https://www.reddit.com/r/androiddev/comments/68jowo/dependency_injection_for_android_how_to_use/)
+
 Sample project to demonstrate how to use the new [**dagger-android**](https://google.github.io/dagger/android.html) module in latest Dagger [v2.11-rc1](https://github.com/google/dagger/releases/tag/dagger-2.11-rc1). Along with [Proguard rules](https://github.com/rakshakhegde/DaggerAndroidInjector/blob/kotlin/app/proguard-rules.pro#L27). Also shows [MVVM pattern](https://labs.ribot.co.uk/approaching-android-with-mvvm-8ceec02d5442) and [Unit Test](https://github.com/rakshakhegde/DaggerAndroidInjector/blob/kotlin/app/src/test/java/me/rakshakhegde/dagger_android_injector/screens/main_screen/MainViewModelTest.kt#L11) setup with [Mockito](https://github.com/rakshakhegde/DaggerAndroidInjector/blob/kotlin/app/build.gradle#L52) on the side.
 
 ### Show some :heart:
