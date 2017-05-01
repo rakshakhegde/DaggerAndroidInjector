@@ -24,10 +24,8 @@ class MainActivity : AppCompatActivity(), MainView {
 		  Make sure you're injecting before onCreate. Order matters if using Fragments.
 		  On Activity restore, if injection is done after onCreate, app could crash if Fragments
 		  try to inject first.
-
-		  Good practice in Kotlin to always be specific as to what `this` is.
 		 */
-		AndroidInjection.inject(this@MainActivity)
+		AndroidInjection.inject(act)
 
 		super.onCreate(savedInstanceState)
 
