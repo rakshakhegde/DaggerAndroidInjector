@@ -1,7 +1,8 @@
 package me.rakshakhegde.dagger_android_injector.dependencies
 
-import dagger.BindsInstance
 import dagger.Component
+import dagger.android.AndroidInjector
+import dagger.android.support.AndroidSupportInjectionModule
 import me.rakshakhegde.dagger_android_injector.App
 import javax.inject.Singleton
 
@@ -10,17 +11,8 @@ import javax.inject.Singleton
  */
 
 @Singleton
-@Component(modules = arrayOf(InjectorsModule::class))
-interface AppComponent {
-
-	fun inject(app: App)
-
-	@Component.Builder
-	interface Builder {
-
-		@BindsInstance
-		fun app(application: App): Builder
-
-		fun build(): AppComponent
-	}
-}
+@Component(modules = arrayOf(
+		AndroidSupportInjectionModule::class,
+		InjectorsModule::class
+))
+interface AppComponent : AndroidInjector<App>

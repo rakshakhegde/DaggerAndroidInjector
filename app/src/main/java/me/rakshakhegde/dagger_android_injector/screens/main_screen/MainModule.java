@@ -32,7 +32,7 @@ public abstract class MainModule {
 
 	@Provides
 	static String providesUnusedData() {
-		return "Unused Data";
+		return android.os.Build.MODEL;
 	}
 
 	// Add more @Provides here
