@@ -22,7 +22,7 @@ android {
 }
 
 ext {
-	daggerVersion = "2.11-rc1"
+	daggerVersion = "2.11-rc2"
 	jsr305Version = "3.0.1"
 }
 
