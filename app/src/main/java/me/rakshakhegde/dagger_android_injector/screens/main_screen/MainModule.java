@@ -27,13 +27,13 @@ import dagger.Provides;
 @Module
 public abstract class MainModule {
 
+	@Binds
+	abstract MainView mainView(MainActivity act);
+
 	@Provides
 	static String providesUnusedData() {
 		return "Unused Data";
 	}
-
-	@Binds
-	abstract MainView mainView(MainActivity act);
 
 	// Add more @Provides here
 }
