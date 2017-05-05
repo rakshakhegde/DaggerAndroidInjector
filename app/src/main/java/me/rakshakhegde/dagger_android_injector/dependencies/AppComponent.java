@@ -17,4 +17,8 @@ import me.rakshakhegde.dagger_android_injector.App;
 		InjectorsModule.class
 })
 public interface AppComponent extends AndroidInjector<App> {
+
+	@Component.Builder
+	abstract class Builder extends AndroidInjector.Builder<App> {
+	}
 }

@@ -1,7 +1,7 @@
 package me.rakshakhegde.dagger_android_injector;
 
+import dagger.android.AndroidInjector;
 import dagger.android.DaggerApplication;
-import me.rakshakhegde.dagger_android_injector.dependencies.AppComponent;
 import me.rakshakhegde.dagger_android_injector.dependencies.DaggerAppComponent;
 
 /**
@@ -11,7 +11,7 @@ import me.rakshakhegde.dagger_android_injector.dependencies.DaggerAppComponent;
 public class App extends DaggerApplication {
 
 	@Override
-	protected AppComponent applicationInjector() {
-		return DaggerAppComponent.create();
+	protected AndroidInjector<App> applicationInjector() {
+		return DaggerAppComponent.builder().create(this);
 	}
 }
