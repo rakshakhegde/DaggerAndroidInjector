@@ -2,9 +2,9 @@
 
 # Dagger Android Injector
 
-#### [Kotlin branch here](https://github.com/rakshakhegde/DaggerAndroidInjector/tree/kotlin)
+### [Kotlin branch here](https://github.com/rakshakhegde/DaggerAndroidInjector/tree/kotlin)
 
-#### Update
+### Update
 
 Latest Dagger 2.11 has provided some helper classes. Check out [**App.java**](https://github.com/rakshakhegde/DaggerAndroidInjector/blob/master/app/src/main/java/me/rakshakhegde/dagger_android_injector/App.java) for the updated simplified usage.
 
