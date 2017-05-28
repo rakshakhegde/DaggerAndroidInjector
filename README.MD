@@ -2,7 +2,7 @@
 
 # Dagger Android Injector - Kotlin
 
-**Update**: Latest Dagger 2.11 has provided some helper classes. Check out [**App.java**](https://github.com/rakshakhegde/DaggerAndroidInjector/blob/master/app/src/main/java/me/rakshakhegde/dagger_android_injector/App.java) for the updated simplified usage.
+**Update**: Latest Dagger 2.11 has provided some helper classes. Check out [**App.kt**](https://github.com/rakshakhegde/DaggerAndroidInjector/blob/kotlin/app/src/main/java/me/rakshakhegde/dagger_android_injector/App.kt) for the updated simplified usage.
 
 [**Reddit discussion**](https://www.reddit.com/r/androiddev/comments/68jowo/dependency_injection_for_android_how_to_use/)
 
