@@ -2,11 +2,15 @@
 
 # Dagger Android Injector
 
+#### [Kotlin branch here](https://github.com/rakshakhegde/DaggerAndroidInjector/tree/kotlin)
+
+#### Update
+
+Latest Dagger 2.11 has provided some helper classes. Check out [**App.java**](https://github.com/rakshakhegde/DaggerAndroidInjector/blob/master/app/src/main/java/me/rakshakhegde/dagger_android_injector/App.java) for the updated simplified usage.
+
 [**Reddit discussion**](https://www.reddit.com/r/androiddev/comments/68jowo/dependency_injection_for_android_how_to_use/)
 
 Sample project to demonstrate how to use the new [**dagger-android**](https://google.github.io/dagger/android.html) module in latest Dagger [v2.11-rc2](https://github.com/google/dagger/releases). Along with [Proguard rules](https://github.com/rakshakhegde/DaggerAndroidInjector/blob/master/app/proguard-rules.pro#L27). Also shows [MVVM pattern](https://labs.ribot.co.uk/approaching-android-with-mvvm-8ceec02d5442) and [Unit Test](https://github.com/rakshakhegde/DaggerAndroidInjector/blob/master/app/src/test/java/me/rakshakhegde/dagger_android_injector/screens/main_screen/MainViewModelTest.java#L13) setup with [Mockito](https://github.com/rakshakhegde/DaggerAndroidInjector/blob/master/app/build.gradle#L44) on the side.
-
-[Kotlin branch here](https://github.com/rakshakhegde/DaggerAndroidInjector/tree/kotlin)
 
 ### Show some :heart:
 [![GitHub stars](https://img.shields.io/github/stars/rakshakhegde/DaggerAndroidInjector.svg?style=social&label=Star)](https://github.com/rakshakhegde/DaggerAndroidInjector) [![GitHub forks](https://img.shields.io/github/forks/rakshakhegde/DaggerAndroidInjector.svg?style=social&label=Fork)](https://github.com/rakshakhegde/DaggerAndroidInjector/fork) [![GitHub watchers](https://img.shields.io/github/watchers/rakshakhegde/DaggerAndroidInjector.svg?style=social&label=Watch)](https://github.com/rakshakhegde/DaggerAndroidInjector) [![GitHub followers](https://img.shields.io/github/followers/rakshakhegde.svg?style=social&label=Follow)](https://github.com/rakshakhegde)  
