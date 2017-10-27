@@ -4,7 +4,6 @@ apply plugin: 'kotlin-kapt'
 
 android {
 	compileSdkVersion 25
-	buildToolsVersion "25.0.2"
 	defaultConfig {
 		applicationId "me.rakshakhegde.dagger_android_injector"
 		minSdkVersion 14
@@ -58,5 +57,5 @@ dependencies {
 	})
 }
 repositories {
-	mavenCentral()
+	jcenter()
 }
