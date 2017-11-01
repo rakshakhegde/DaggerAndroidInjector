@@ -2,10 +2,11 @@
 
 buildscript {
 	ext {
-		compiler_version = "2.4.0-alpha7"
-		kotlin_version = '1.1.2-3'
+		compiler_version = "3.0.0"
+		kotlin_version = '1.1.51'
 	}
 	repositories {
+		google()
 		jcenter()
 	}
 	dependencies {
@@ -19,6 +20,7 @@ buildscript {
 
 allprojects {
 	repositories {
+		google()
 		jcenter()
 	}
 }
